@@ -1,0 +1,374 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 64px;
+    box-sizing: border-box;
+    background-color: black;
+    padding: 0 64px;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+}
+
+header nav .logo {
+    height: 100%;
+    width: 100px;
+}
+
+.left {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+}
+
+.links {
+    margin: 0 20px;
+    display: flex;
+    width: 200px;
+    font-size: 14px;
+    font-weight: 500;
+
+}
+
+.links a {
+    margin: 0 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.right {
+    display: flex;
+    line-height: 60px;
+    padding-right: 10px;
+}
+
+.right a {
+    margin: 10px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.logo img {
+    width: 55px;
+    height: 30px;
+    padding-top: 15px;
+    padding-left: 50px;
+}
+
+.Signup {
+    background-color: white;
+    color: black !important;
+    padding: 10px 20px;
+    line-height: 15px;
+    border-radius: 50px;
+}
+
+.main-body {
+    width: 100%;
+    height: 900px;
+    display: flex;
+    background: #000;
+
+
+}
+
+.left-section {
+    width: 50%;
+    height: 900px;
+    margin-left: 64px;
+    padding-left: 114px;
+    margin-top: 218px;
+}
+
+.right-section {
+    width: 50%;
+    height: 900px;
+
+}
+
+.heading-para {
+    font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 64px;
+    color: white;
+}
+
+.para-one {
+    color: #fff;
+    letter-spacing: 0;
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    margin-top: 35px;
+}
+
+.right-section img {
+    width: 558px;
+    height: 697px;
+    padding-right: 150px;
+    margin-top: 64px;
+}
+
+.img-two {
+    width: 558px;
+    height: 558px;
+    margin-top: -150px
+}
+
+.heading-para-two {
+    font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 52px;
+    font-weight: 650;
+    line-height: 64px;
+    color: black;
+    margin-top: 150px;
+}
+
+.second-section {
+    width: 100%;
+    height: 700px;
+    display: flex;
+}
+
+.third-section {
+    width: 100%;
+    height: 900px;
+    display: flex;
+}
+
+.para-two {
+    margin-top: 50px;
+    letter-spacing: 0;
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 24px;
+}
+
+.button {
+    background-color: #000;
+    color: #fff;
+    width: 135px;
+    height: 50px;
+    border-radius: 10px;
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.right-section span {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.right-section span p {
+    margin-left: 20px;
+    border-bottom: 1px solid #5c5c5c;
+
+}
+
+.third {
+    padding-left: 114px;
+    margin-left: 64px;
+}
+
+.third-right {
+    padding: 0 !important;
+    margin-left: 0 !important;
+}
+
+.right-section .third-head {
+    line-height: 40px;
+    font-size: 35px !important;
+    padding: 0 !important;
+}
+
+.five-section {
+    width: 100%;
+    height: 406px;
+    background: #f1f1f1;
+    display: flex;
+}
+
+.five-left-section {
+    width: 50%;
+    height: 278px;
+    padding: 64px 64px;
+    margin-left: 64px;
+}
+
+.five-right-section {
+    width: 50%;
+    height: 278px;
+    padding: 64px 64px;
+    margin-right: 64px;
+}
+
+.five-left-section h1 {
+    font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 44px;
+}
+
+.five-left-section h2 {
+    font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+
+}
+
+.scan {
+    letter-spacing: 0;
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 24px;
+}
+
+.qrcode {
+    width: 150px;
+    height: 150px;
+}
+
+.span-qrcode {
+    display: flex;
+    padding-left: 70px;
+    margin-top: 60px;
+    align-items: center;
+
+}
+
+.span-qrcode h2 {
+    margin-left: 20px;
+}
+
+.five-left-section h1 {
+    margin-left: 10px;
+    padding-left: 40px;
+}
+
+.five-right-section img {
+    margin-left: -100px;
+    margin-top: 37px;
+}
+
+.five-right-section h2 {
+    margin-top: 35px;
+}
+
+.arrow {
+    margin-left: 40px;
+
+}
+
+.arrow-two {
+    padding-left: 150px;
+}
+
+.footer {
+    width: 100%;
+    height: 500px;
+    background: #000;
+    color: #fff;
+    display: flex;
+}
+
+.location {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    max-width: 350px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    height: 30px;
+    margin-top: 20px;
+
+}
+
+.location input {
+    outline: none;
+    border: none;
+    width: 275px;
+}
+
+.button-one {
+    width: 130px;
+    height: 50px;
+    background-color: #fff;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.span-button {
+    font-weight: 500px;
+    font-size: 14px;
+}
+
+.div-one {
+    min-width: 300px;
+}
+
+.div-two {
+    height: 510px;
+    min-width: 300px;
+}
+
+.div-three {
+    height: 510px;
+    min-width: 300px;
+}
+
+.div-one ul li {
+    list-style-type: none;
+    line-height: 35px;
+    font-size: 15px;
+}
+
+.div-two ul li {
+    list-style-type: none;
+    line-height: 35px;
+    font-size: 15px;
+}
+
+.div-three ul li {
+    list-style-type: none;
+    line-height: 35px;
+    font-size: 15px;
+}
+
+.div-four {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.div-four img {
+    margin: 10px 40px;
+}
+
+.footer {
+    margin-right: 100px;
+    justify-content: space-around;
+}
+
+.div-four {
+    height: 510px;
+    min-width: 300px;
+}
